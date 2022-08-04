@@ -1,0 +1,118 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+}
+
+.header {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.text {
+  margin-top: 10vh;
+  width: 60%;
+}
+
+.image {
+  margin-top: -10%;
+  width: 30%;
+}
+
+.home_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vw;
+  line-height: .8;
+  font-weight: 800;
+}
+
+.home_title span{
+text-shadow: 0 20px 25px rgba(0,0,0,.5);
+}
+
+.text-light {
+  color:aliceblue;
+  font-size: 3vw;
+}
+
+/* ----------- CTA ----------- */
+
+.cta {
+  display: flex;
+  gap: 1.2rem;
+}
+
+/* ----------- header socials ----------- */
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 3rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* ----------- Scrolldown ----------- */
+
+.scroll__down {
+  position: absolute;
+  right: 2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+/* ----------- Media queries MD ----------- */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* ----------- Media queries SM ----------- */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 90vh;
+    position: relative;
+  }
+
+  .header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: -15%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 220px;
+    row-gap: 1rem;
+    text-align: center;
+  }
+
+  .image {
+    height: auto;
+    width: 60%;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
