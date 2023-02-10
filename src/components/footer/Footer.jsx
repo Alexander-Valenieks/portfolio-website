@@ -12,15 +12,15 @@ const Footer = () => {
       <ul className='permalinks'>
         <li> <a href="#">home</a> </li>
         <li> <a href="#about">about</a> </li>
+        <li> <a href="#skills">skills</a> </li>
         <li> <a href="#experience">experience</a> </li>
-        <li> <a href="#services">services</a> </li>
         <li> <a href="#portfolio">portfolio</a> </li>
         {/* <li> <a href="#testimonials">testimonials</a> </li> */}
         <li> <a href="#contact">contact</a> </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/aleksandrs-valenieks-b81b16153/"> < BsLinkedin /> </a>
+        <a href="https://www.linkedin.com/in/aleksandrs-valenieks/"> < BsLinkedin /> </a>
         <a href="https://www.facebook.com/aleksandrs.valenieks/"> < BsFacebook /> </a>
         <a href="https://www.instagram.com/valenieks_/"> < BsInstagram /> </a>
       </div>

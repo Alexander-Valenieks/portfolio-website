@@ -1,148 +1,83 @@
 import React from 'react'
 import './Experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {BiCheck} from 'react-icons/bi'
+
 
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What I Can Do</h5>
-      <h2>My Skill Set</h2>
+      <h5>What I've Done</h5>
+      <h2>Previous experiences</h2>
+
+    {/* ------------ UI/UX Design ------------ */}
 
       <div className="container experience__container">
-        <div className="experience front__end">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>HTML</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>CSS</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>Javascript</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>React</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>Sass</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>Git</h4>
-              </div>
-            </article>
+        <article className="experience">
+          <div className="experience__head">
+            <h3> UI/UX Design</h3>
           </div>
-        </div>
-        <div className="experience back__end">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>PHP</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Beginner</small>
-                <h4>Node JS</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>Java</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>Firebase</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>MySQL</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Intermediate</small>
-                <h4>Oracle</h4>
-              </div>
-            </article>
+
+          <ul className="experience__list">
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Designing mockups</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Wireframing</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Prototyping</p>
+            </li>
+          </ul>
+        </article>
+
+    {/* ------------ Marketing ------------ */}
+
+        <article className="experience">
+          <div className="experience__head">
+            <h3>Marketing</h3>
           </div>
-        </div>
-        <div className="experience design">
-          <h3>Design</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>PhotoShop</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>Illustrator</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>InDesign</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>Figma</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <small>Advanced</small>
-                <h4>Sketch</h4>
-              </div>
-            </article>
+
+          <ul className="experience__list">
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Socialmedia marketing</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>CMS configuration</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>SEO optimization</p>
+            </li>
+          </ul>
+        </article>
+
+    {/* ------------ Content Creation ------------ */}
+
+        <article className="experience">
+          <div className="experience__head">
+            <h3> Content Creation</h3>
           </div>
-        </div>
+
+          <ul className="experience__list">
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Logos, banners, typographical products</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Music production for commercial videos</p>
+            </li>
+            <li>
+              <BiCheck className="experience__list-icon"/>
+              <p>Video editing</p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   )
