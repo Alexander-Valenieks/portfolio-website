@@ -1,8 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import {BsLinkedin, BsTelegram, BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -19,16 +18,16 @@ const Contact = () => {
               <a href='mailto:aleksandrs.valenieks@gmail.com' target="_blank">Send an email</a>
             </article>
             <article className="contact__option">
-              <RiMessengerLine className="contact__option-icon" />
-              <h4>Messenger</h4>
-              <h5>@AleksandrsValenieks</h5>
-              <a href='https://m.me/aleksandrs.valenieks/' target="_blank">Send a message</a>
+              <BsLinkedin className="contact__option-icon" />
+              <h4>LinkedIn</h4>
+              <h5>aleksandrs-valenieks</h5>
+              <a href='https://www.linkedin.com/in/aleksandrs-valenieks/' target="_blank">Send a message</a>
             </article>
             <article className="contact__option">
-              <BsWhatsapp className="contact__option-icon" />
-              <h4>WhatsApp</h4>
+              <BsTelegram className="contact__option-icon" />
+              <h4>Telegram</h4>
               <h5>+37258367479</h5>
-              <a href='https://wa.me/37258367479' target="_blank">Send a message</a>
+              <a href='https://t.me/+37258367479' target="_blank">Send a message</a>
             </article>
           </div>
       </div>

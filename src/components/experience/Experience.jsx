@@ -14,7 +14,7 @@ const Experience = () => {
       <div className="container experience__container">
         <article className="experience">
           <div className="experience__head">
-            <h3> UI/UX Design</h3>
+            <h3>UI/UX Design</h3>
           </div>
 
           <ul className="experience__list">

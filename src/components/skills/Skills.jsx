@@ -15,25 +15,19 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML | CSS</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>JavaScript</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Javascript</h4>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <div>
-                <h4>jQuery</h4>
+                <h4>Typescript</h4>
               </div>
             </article>
             <article className="skills__details">
@@ -45,13 +39,13 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>TypeScript</h4>
+                <h4>Redux</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Git</h4>
+                <h4>Figma</h4>
               </div>
             </article>
           </div>
@@ -62,25 +56,19 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>PHP</h4>
+                <h4>Java | Spring</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>JDBC/Hibernate</h4>
+                <h4>Hibernate</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Java</h4>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <div>
-                <h4>Firebase</h4>
+                <h4>Rest API</h4>
               </div>
             </article>
             <article className="skills__details">
@@ -92,7 +80,13 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Rest API</h4>
+                <h4>Node</h4>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>PostgreSQL</h4>
               </div>
             </article>
           </div>
@@ -100,40 +94,40 @@ const Skills = () => {
         <div className="skills design">
           <h3>Other skills</h3>
           <div className="skills__content">
-            <article className="skills__details">
+          <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Wordpress</h4>
+                <h4>OOP | Design Patterns</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Prestashop</h4>
+                <h4>Testing</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Joomla</h4>
+                <h4>UX/UI</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Figma</h4>
+                <h4>Seo</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Photoshop</h4>
+                <h4>VsCode | JetBrains</h4>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Illustrator</h4>
+                <h4>Git</h4>
               </div>
             </article>
           </div>

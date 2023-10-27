@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.370cb0c4.css",
-    "main.js": "/static/js/main.b84ac8a3.js",
+    "main.css": "/static/css/main.0feab7f6.css",
+    "main.js": "/static/js/main.8a5b5886.js",
     "static/media/portfolio-page.png": "/static/media/portfolio-page.d84825b589a0474dfcb4.png",
     "static/media/alex-perfil-black.png": "/static/media/alex-perfil-black.23fc3b949f3a6f626592.png",
-    "static/media/cv.pdf": "/static/media/cv.056856274f87df2257e4.pdf",
     "static/media/alex-portret.png": "/static/media/alex-portret.fe9ac9afd044e6fee8c8.png",
+    "static/media/CV-Aleksandrs-Valenieks-23.pdf": "/static/media/CV-Aleksandrs-Valenieks-23.0d2e8cba16ca5a0d3d2e.pdf",
     "static/media/project-tracker.png": "/static/media/project-tracker.341a13c335b7cad14c78.png",
     "index.html": "/index.html",
-    "main.370cb0c4.css.map": "/static/css/main.370cb0c4.css.map",
-    "main.b84ac8a3.js.map": "/static/js/main.b84ac8a3.js.map"
+    "main.0feab7f6.css.map": "/static/css/main.0feab7f6.css.map",
+    "main.8a5b5886.js.map": "/static/js/main.8a5b5886.js.map"
   },
   "entrypoints": [
-    "static/css/main.370cb0c4.css",
-    "static/js/main.b84ac8a3.js"
+    "static/css/main.0feab7f6.css",
+    "static/js/main.8a5b5886.js"
   ]
 }
